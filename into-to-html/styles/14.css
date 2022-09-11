@@ -1,0 +1,40 @@
+div{
+    font-family: Arial;
+}
+p{
+    margin: 0;
+}
+.wall{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    border-style: solid;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.line1{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.line2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.button{
+    cursor: pointer;
+}

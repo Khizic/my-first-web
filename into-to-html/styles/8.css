@@ -1,0 +1,125 @@
+.name,.email{
+    display: block;
+}
+.name{
+    margin-bottom: 5px;
+}
+.question{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.google{
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 5px;
+}
+.search-line{
+    margin-left: 400px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
+    padding-right: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    display: block;
+}
+.fn1{
+    display: inline-block;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 100px;
+}
+.fn2{
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    width: 100px;
+}
+.email2{
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    width: 226px
+}
+.signup{
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.enter1{
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    background-color: rgb(223, 223, 195);
+    border: none;
+}
+.enter2{
+    display: block;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    width: 300px;
+    background-color: rgb(223, 223, 195);
+    border: none;
+}
+.b1{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.b2{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(223, 223, 195);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

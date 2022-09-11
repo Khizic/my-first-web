@@ -1,0 +1,132 @@
+body{
+    margin-bottom: 1000px;
+}
+div{
+    font-family: Arial;
+}
+.box{
+    border-style: solid;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.all-inboxes{
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    margin-bottom: 8px;
+}
+.main-part{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.picture{
+    height: 38px;
+    width: 38px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.text-block{
+    margin-left: 8px;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.name{
+    font-size: 13px;
+    font-weight: bold;
+}
+.time{
+    font-size: 10px;
+    color: gray;
+}
+.line2{
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.line3{
+    display: block;
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+}
+
+
+
+.big-box{
+    width: 420px;
+    display: flex;
+}
+.picture-block{
+    margin-right: 10px;
+}
+.profile-picture{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+.main-block{
+    flex: 1;
+    margin-bottom: 5px;
+}
+.text-part{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.user-name{
+    display: flex;
+    margin-bottom: 3px;
+}
+.first-user-name{
+    font-weight: bold;
+}
+.second-user-name{
+    color: grey;
+    margin-left: 5px;
+}
+.link-part{
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+}
+.link-picture{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 15 px;
+}
+.link-text-block{
+    margin-left: 10px;
+    flex: 1;
+}
+.youtube{
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.link-text{
+    line-height: 20px;
+}

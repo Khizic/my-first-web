@@ -1,0 +1,51 @@
+body{
+    height: 3000px;
+    background-color: rgba(58, 56, 65, 0.842);
+}
+div{
+    font-family: Arial;
+}
+.clothing{
+    display: inline-block;
+    position: relative;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+.sale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.button-box{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.781);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
